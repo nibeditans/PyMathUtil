@@ -2,9 +2,19 @@
 def factorial_recursive(n):
     """
 
-    :param n: integer
-    :return: n * (n-1) * (n-2) * ... * 3 * 2 * 1
+    Returns the factorial of a number using recursion.
+
+    Parameters:
+    -----------
+    n : int
+        The number whose factorial is to be calculated.
+
+    Returns:
+    --------
+    int
+        The factorial of the input number `n`.
     """
+    
     if n == 1:
         return 1
     else:
